@@ -1,6 +1,7 @@
 module "docdb" {
   source                   = "./vendor/modules/docdb"  
-  ENV                      = var.ENV
+  # ENV                      = var.EN
+  ENV                       = var.ENV
 }
 
 # module "vpc" {
