@@ -1,0 +1,4 @@
+docdb:
+    source:  "https://github.com/bohrapankajs/tf-module-docdb.git"
+    version: "main" # this is main branch but should be dev branch
+
