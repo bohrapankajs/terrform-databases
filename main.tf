@@ -4,6 +4,19 @@ module "docdb" {
   ENV                       = var.ENV
 }
 
+module "redis" {
+  source                   = "./vendor/modules/redis"  
+  ENV                       = var.ENV
+}
+
+module "mysql" {
+  source                   = "./vendor/modules/mysql"  
+  ENV                       = var.ENV
+}
+
+
+
+
 # module "vpc" {
 #   source = "git::https://github.com/b51-clouddevops/tf-module-vpc.git"
 # }

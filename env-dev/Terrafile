@@ -2,3 +2,10 @@ docdb:
     source:  "https://github.com/bohrapankajs/tf-module-docdb.git"
     version: "main" # this is main branch but should be dev branch
 
+redis:
+    source:  "https://github.com/bohrapankajs/tf-module-redis.git"
+    version: "main" # this is main branch but should be dev branch
+
+mysql:
+    source:  "https://github.com/bohrapankajs/tf-module-mysql.git"
+    version: "main" # this is main branch but should be dev branch
